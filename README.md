@@ -53,8 +53,8 @@ Console.WriteLine("==========================================================");
 
 ## 截图
 
-![debug](.\Images\debug.png)
+![debug](https://github.com/zkhssb/MinecraftServerInfo/blob/master/Images/debug.png)
 
-![hypixel](.\Images\hypixel.png)
+![hypixel](https://github.com/zkhssb/MinecraftServerInfo/blob/master/Images/hypixel.png)
 
-![myserver](.\Images\myserver.png)
+![myserver](https://github.com/zkhssb/MinecraftServerInfo/blob/master/Images/myserver.png)
