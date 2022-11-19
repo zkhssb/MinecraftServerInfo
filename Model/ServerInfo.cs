@@ -1,4 +1,5 @@
-﻿using System.Text.Json.Serialization;
+﻿using MinecraftServerInfo.JsonConverters;
+using System.Text.Json.Serialization;
 
 namespace MinecraftServerInfo.Model
 {
@@ -17,6 +18,7 @@ namespace MinecraftServerInfo.Model
         /// <summary>
         /// 服务器描述
         /// </summary>
+        [JsonConverter(typeof(ServerDescriptionJsonConverter))]
         [JsonPropertyName("description")]
         public ServerDescription Description { get; set; } = new ServerDescription();
         /// <summary>
