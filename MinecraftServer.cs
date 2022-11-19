@@ -123,10 +123,9 @@ namespace MinecraftServerInfo
                         }
                         // 获取实际数据长度
                         int packedDataLen = VarInt.GetInt32(resultBytes.Skip(3).Take(2).ToArray());
-
+                        string dataStirng = Encoding.UTF8.GetString(resultBytes.Skip(5).Take(packedDataLen).ToArray());
                         // 开始解析数据
-                        return JsonSerializer.Deserialize<ServerInfo>(
-                            Encoding.UTF8.GetString(resultBytes.Skip(5).Take(packedDataLen).ToArray()))!;
+                        return JsonSerializer.Deserialize<ServerInfo>(dataStirng)!;
                     }
                 }
             }
