@@ -51,3 +51,10 @@ Console.WriteLine("==========================================================");
   - 是否强制执行安全聊天
   - 是否启用启用聊天预览功能
 
+## 截图
+
+![debug](.\Images\debug.png)
+
+![hypixel](.\Images\hypixel.png)
+
+![myserver](.\Images\myserver.png)
