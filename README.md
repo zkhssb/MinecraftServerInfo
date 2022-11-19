@@ -2,7 +2,7 @@
 
 >  快速获取Minecraft服务器信息
 >
-> 理论上支持所有版本服务器 (以对Description字段做兼容)
+> 理论上支持所有版本服务器 (已对Description字段做兼容)
 
 例子
 
